@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Win Launcher</string>
+    <color name="desktop_bg">#FF0A3D8F</color>
+    <color name="taskbar">#FF202020</color>
+    <color name="icon_bg">#FF0B2A5B</color>
+
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/desktop_bg</item>
+        <item name="android:statusBarColor">@color/taskbar</item>
+        <item name="android:navigationBarColor">@color/taskbar</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>
